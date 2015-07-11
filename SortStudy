@@ -1,0 +1,29 @@
+// 选择排序性能低：
+public static void seleteSort(int[] arr){
+	for (int x = 0; x < arr.length -1; x++){
+		for (int y = 0; y < arr.length; y++){
+			if (arr[x] > arr[y]){
+				int temp = arr[x];
+				arr[x] = arr[y];
+				arr[y] = temp;	
+			}
+		}
+	}
+}
+
+
+
+// 冒泡排序性能高：
+public static void bubbleSort(int[] arr){
+	for (int x = 0; x <length - 1; x+=){
+		for (int y = 0; y < length-x-1; y++){
+			if {
+				arr[y]<arr[y+1]{
+					int temp = arr[y];
+					arr[y] = arr[y+1];
+					arr[y+1] = temp;
+				}
+			}
+		}
+	}
+}
